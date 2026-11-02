@@ -1,5 +1,8 @@
 # WSN_node1 - Final upgraded version
+# Báo cáo Đề tài Nghiên cứu Khoa học
 
+📁 **Tài liệu & Báo cáo chi tiết (Google Drive):**
+[Xem toàn bộ tài liệu và dữ liệu nghiên cứu tại đây](https://drive.google.com/drive/folders/1ey-nQ4-dbGkrEok7GZuUttDQNfEHVITU)
 ## Những gì đã nâng cấp
 - Fix lỗi xuất Excel bằng Maven dependency đầy đủ.
 - Fix `round` trong mô phỏng để LEACH/DEAL/SFCH dùng đúng vòng lặp.
@@ -132,8 +135,3 @@ Kỳ vọng:
 - `pom.xml`
 - `data/5node_coords.txt`
 
-## Gợi ý tiếp theo nếu muốn làm báo cáo đẹp hơn
-- thêm biểu đồ FND/HND/LND theo từng run
-- thêm so sánh theo vị trí sink
-- thêm nhiều dataset cố định 50/100/200 node
-- tách cấu hình thực nghiệm ra file JSON/YAML
