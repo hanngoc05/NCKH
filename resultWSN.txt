@@ -1,0 +1,433 @@
+WSN Simulation Log
+==================
+
+===== INPUT =====
+Dataset      : data/100node.txt
+L            : 500
+W            : 500
+N            : 100
+Sink         : (50.0, 60.0)
+E0           : 0.2
+k            : 4000
+Eelec        : 5.0E-8
+epsFS        : 1.0E-11
+epsMP        : 1.3E-15
+d0           : 87.70580193070292
+Seed         : 42
+Runs         : 3
+Max rounds   : 10000
+
+===== RUN RESULT =====
+Dataset     : data/100node.txt
+Clustering  : LEACH_Standard
+Routing     : GARouting
+Run         : 1
+Fitness     : 0,591862
+Energy left : 0,059267
+FND         : 1
+HND         : 19
+LND         : 39
+Runtime(ms) : 2438
+
+===== RUN RESULT =====
+Dataset     : data/100node.txt
+Clustering  : LEACH_Standard
+Routing     : GARouting
+Run         : 2
+Fitness     : 0,591862
+Energy left : 0,059267
+FND         : 1
+HND         : 19
+LND         : 39
+Runtime(ms) : 30
+
+===== RUN RESULT =====
+Dataset     : data/100node.txt
+Clustering  : LEACH_Standard
+Routing     : GARouting
+Run         : 3
+Fitness     : 0,591862
+Energy left : 0,059267
+FND         : 1
+HND         : 19
+LND         : 39
+Runtime(ms) : 30
+
+===== SUMMARY =====
+Clustering  : LEACH_Standard
+Routing     : GARouting
+Avg fitness : 0,591862
+Avg energy  : 0,059267
+Avg FND     : 1,00
+Avg HND     : 19,00
+Avg LND     : 39,00
+Avg runtime : 832,67 ms
+
+===== RUN RESULT =====
+Dataset     : data/100node.txt
+Clustering  : LEACH_Standard
+Routing     : DERouting
+Run         : 1
+Fitness     : 0,591862
+Energy left : 0,059267
+FND         : 1
+HND         : 19
+LND         : 39
+Runtime(ms) : 137
+
+===== RUN RESULT =====
+Dataset     : data/100node.txt
+Clustering  : LEACH_Standard
+Routing     : DERouting
+Run         : 2
+Fitness     : 0,591862
+Energy left : 0,059267
+FND         : 1
+HND         : 19
+LND         : 39
+Runtime(ms) : 25
+
+===== RUN RESULT =====
+Dataset     : data/100node.txt
+Clustering  : LEACH_Standard
+Routing     : DERouting
+Run         : 3
+Fitness     : 0,591862
+Energy left : 0,059267
+FND         : 1
+HND         : 19
+LND         : 39
+Runtime(ms) : 16
+
+===== SUMMARY =====
+Clustering  : LEACH_Standard
+Routing     : DERouting
+Avg fitness : 0,591862
+Avg energy  : 0,059267
+Avg FND     : 1,00
+Avg HND     : 19,00
+Avg LND     : 39,00
+Avg runtime : 59,33 ms
+
+===== RUN RESULT =====
+Dataset     : data/100node.txt
+Clustering  : LEACH_Standard
+Routing     : PSORouting
+Run         : 1
+Fitness     : 0,591862
+Energy left : 0,059267
+FND         : 1
+HND         : 19
+LND         : 39
+Runtime(ms) : 100
+
+===== RUN RESULT =====
+Dataset     : data/100node.txt
+Clustering  : LEACH_Standard
+Routing     : PSORouting
+Run         : 2
+Fitness     : 0,591862
+Energy left : 0,059267
+FND         : 1
+HND         : 19
+LND         : 39
+Runtime(ms) : 28
+
+===== RUN RESULT =====
+Dataset     : data/100node.txt
+Clustering  : LEACH_Standard
+Routing     : PSORouting
+Run         : 3
+Fitness     : 0,591862
+Energy left : 0,059267
+FND         : 1
+HND         : 19
+LND         : 39
+Runtime(ms) : 18
+
+===== SUMMARY =====
+Clustering  : LEACH_Standard
+Routing     : PSORouting
+Avg fitness : 0,591862
+Avg energy  : 0,059267
+Avg FND     : 1,00
+Avg HND     : 19,00
+Avg LND     : 39,00
+Avg runtime : 48,67 ms
+
+===== RUN RESULT =====
+Dataset     : data/100node.txt
+Clustering  : DEAL_Standard
+Routing     : GARouting
+Run         : 1
+Fitness     : 0,591862
+Energy left : 0,059267
+FND         : 1
+HND         : 19
+LND         : 39
+Runtime(ms) : 73
+
+===== RUN RESULT =====
+Dataset     : data/100node.txt
+Clustering  : DEAL_Standard
+Routing     : GARouting
+Run         : 2
+Fitness     : 0,591862
+Energy left : 0,059267
+FND         : 1
+HND         : 19
+LND         : 39
+Runtime(ms) : 18
+
+===== RUN RESULT =====
+Dataset     : data/100node.txt
+Clustering  : DEAL_Standard
+Routing     : GARouting
+Run         : 3
+Fitness     : 0,591862
+Energy left : 0,059267
+FND         : 1
+HND         : 19
+LND         : 39
+Runtime(ms) : 19
+
+===== SUMMARY =====
+Clustering  : DEAL_Standard
+Routing     : GARouting
+Avg fitness : 0,591862
+Avg energy  : 0,059267
+Avg FND     : 1,00
+Avg HND     : 19,00
+Avg LND     : 39,00
+Avg runtime : 36,67 ms
+
+===== RUN RESULT =====
+Dataset     : data/100node.txt
+Clustering  : DEAL_Standard
+Routing     : DERouting
+Run         : 1
+Fitness     : 0,591862
+Energy left : 0,059267
+FND         : 1
+HND         : 19
+LND         : 39
+Runtime(ms) : 63
+
+===== RUN RESULT =====
+Dataset     : data/100node.txt
+Clustering  : DEAL_Standard
+Routing     : DERouting
+Run         : 2
+Fitness     : 0,591862
+Energy left : 0,059267
+FND         : 1
+HND         : 19
+LND         : 39
+Runtime(ms) : 15
+
+===== RUN RESULT =====
+Dataset     : data/100node.txt
+Clustering  : DEAL_Standard
+Routing     : DERouting
+Run         : 3
+Fitness     : 0,591862
+Energy left : 0,059267
+FND         : 1
+HND         : 19
+LND         : 39
+Runtime(ms) : 14
+
+===== SUMMARY =====
+Clustering  : DEAL_Standard
+Routing     : DERouting
+Avg fitness : 0,591862
+Avg energy  : 0,059267
+Avg FND     : 1,00
+Avg HND     : 19,00
+Avg LND     : 39,00
+Avg runtime : 30,67 ms
+
+===== RUN RESULT =====
+Dataset     : data/100node.txt
+Clustering  : DEAL_Standard
+Routing     : PSORouting
+Run         : 1
+Fitness     : 0,591862
+Energy left : 0,059267
+FND         : 1
+HND         : 19
+LND         : 39
+Runtime(ms) : 73
+
+===== RUN RESULT =====
+Dataset     : data/100node.txt
+Clustering  : DEAL_Standard
+Routing     : PSORouting
+Run         : 2
+Fitness     : 0,591862
+Energy left : 0,059267
+FND         : 1
+HND         : 19
+LND         : 39
+Runtime(ms) : 25
+
+===== RUN RESULT =====
+Dataset     : data/100node.txt
+Clustering  : DEAL_Standard
+Routing     : PSORouting
+Run         : 3
+Fitness     : 0,591862
+Energy left : 0,059267
+FND         : 1
+HND         : 19
+LND         : 39
+Runtime(ms) : 22
+
+===== SUMMARY =====
+Clustering  : DEAL_Standard
+Routing     : PSORouting
+Avg fitness : 0,591862
+Avg energy  : 0,059267
+Avg FND     : 1,00
+Avg HND     : 19,00
+Avg LND     : 39,00
+Avg runtime : 40,00 ms
+
+===== RUN RESULT =====
+Dataset     : data/100node.txt
+Clustering  : SFCH
+Routing     : GARouting
+Run         : 1
+Fitness     : 0,257177
+Energy left : 0,586957
+FND         : 3
+HND         : 23
+LND         : 84
+Runtime(ms) : 1089
+
+===== RUN RESULT =====
+Dataset     : data/100node.txt
+Clustering  : SFCH
+Routing     : GARouting
+Run         : 2
+Fitness     : 0,218345
+Energy left : 0,558484
+FND         : 3
+HND         : 22
+LND         : 101
+Runtime(ms) : 777
+
+===== RUN RESULT =====
+Dataset     : data/100node.txt
+Clustering  : SFCH
+Routing     : GARouting
+Run         : 3
+Fitness     : 0,197199
+Energy left : 0,545970
+FND         : 3
+HND         : 21
+LND         : 111
+Runtime(ms) : 776
+
+===== SUMMARY =====
+Clustering  : SFCH
+Routing     : GARouting
+Avg fitness : 0,224240
+Avg energy  : 0,563804
+Avg FND     : 3,00
+Avg HND     : 22,00
+Avg LND     : 98,67
+Avg runtime : 880,67 ms
+
+===== RUN RESULT =====
+Dataset     : data/100node.txt
+Clustering  : SFCH
+Routing     : DERouting
+Run         : 1
+Fitness     : 0,242038
+Energy left : 0,605483
+FND         : 3
+HND         : 23
+LND         : 88
+Runtime(ms) : 755
+
+===== RUN RESULT =====
+Dataset     : data/100node.txt
+Clustering  : SFCH
+Routing     : DERouting
+Run         : 2
+Fitness     : 0,272289
+Energy left : 0,356826
+FND         : 3
+HND         : 23
+LND         : 81
+Runtime(ms) : 443
+
+===== RUN RESULT =====
+Dataset     : data/100node.txt
+Clustering  : SFCH
+Routing     : DERouting
+Run         : 3
+Fitness     : 0,207706
+Energy left : 0,566310
+FND         : 3
+HND         : 22
+LND         : 104
+Runtime(ms) : 504
+
+===== SUMMARY =====
+Clustering  : SFCH
+Routing     : DERouting
+Avg fitness : 0,240678
+Avg energy  : 0,509540
+Avg FND     : 3,00
+Avg HND     : 22,67
+Avg LND     : 91,00
+Avg runtime : 567,33 ms
+
+===== RUN RESULT =====
+Dataset     : data/100node.txt
+Clustering  : SFCH
+Routing     : PSORouting
+Run         : 1
+Fitness     : 0,278950
+Energy left : 0,622454
+FND         : 3
+HND         : 21
+LND         : 78
+Runtime(ms) : 673
+
+===== RUN RESULT =====
+Dataset     : data/100node.txt
+Clustering  : SFCH
+Routing     : PSORouting
+Run         : 2
+Fitness     : 0,278950
+Energy left : 0,622454
+FND         : 3
+HND         : 21
+LND         : 78
+Runtime(ms) : 477
+
+===== RUN RESULT =====
+Dataset     : data/100node.txt
+Clustering  : SFCH
+Routing     : PSORouting
+Run         : 3
+Fitness     : 0,278950
+Energy left : 0,622454
+FND         : 3
+HND         : 21
+LND         : 78
+Runtime(ms) : 453
+
+===== SUMMARY =====
+Clustering  : SFCH
+Routing     : PSORouting
+Avg fitness : 0,278950
+Avg energy  : 0,622454
+Avg FND     : 3,00
+Avg HND     : 21,00
+Avg LND     : 78,00
+Avg runtime : 534,33 ms
+
